@@ -7,7 +7,7 @@ do
     for s in 10 100 1000 10000 100000
     do
         echo NUMS = $s
-        g++   proj.cpp -o prog -lm -fopenmp
+        g++   all04.cpp -o prog -lm -fopenmp
         ./prog $t $s
     done
 done
